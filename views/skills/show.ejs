@@ -10,6 +10,8 @@
 <body>
   <!-- <h1>Skill id #<%= skill.id %></h1> -->
   <h3><%= skill.skill %></h3>
+  <a href="/skills">Back To Skills</a>
   <h3>pass: <%= skill.pass ? 'Yes' : 'No' %></h3>
+  <a href="/skills/<%= skill.id %>/edit">Edit Skills</a>
   </body>
 </html>
